@@ -1,0 +1,11 @@
+db.faculties.update(
+    {collegeCode:'ATT'},
+    {
+        $set:{
+            dob:"2021-01-01"
+        }
+    },
+    {
+        multi:true
+    }
+)
